@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> GOOGLE WEB SERVICES</h1>
+    <h2>Job Application Form</h2>
+    <form action="/submit-form" method="post">
+        
+        <h4>1. APPLICANT'S NAME</h4> <input type="text" name="username" placeholder="Enter you name">
+        <h4>2. EMAIL ID</h4> <input type="email" name="email" placeholder="Enter your EMAIL ID">
+        <h4>3. WORKING EXPERIENCE </h4> <textarea name="comments" rows="4"
+        cols="50" placeholder="Write your working experience in not more than 50 words." ></textarea>
+        <h4>4. ADDRESS</h4> <textarea name="comments"
+        rows="5"
+        cols="50" placeholder="Enter your residential address" id=""></textarea>
+        <h4>5. COUNTRY</h4> <select name="country">
+            <option value="USA">USA</option>
+            <option value="CANADA">CANADA</option>
+            <option value="INDIA">INDIA</option>
+            <option value="BRAZIL">BRAZIL</option>
+            <option value="RUSSIA">RUSSIA</option>
+            <option value="BANGLADESH">BANGLADESH</option>
+        </select>
+        <h4>6. GENDER</h4><input type="radio" name="gender" value="male" id="male">
+        <label for="male">MALE</label>
+        <input type="radio" name="gender"
+        value="female"
+        id=" female">
+        <label for="female">FEMALE</label>
+        <h4>7. WHY SHOULD WE HIRE YOU ? </h4>  <textarea name="comments" rows="5" cols="50" placeholder="Explain in not more than 50 words why you want the job and why we should only hire you ." id=""></textarea>
+        <h4>8. DATE OF BIRTH</h4> <input type="date"> 
+        <h4>9. AGE</h4> <input type="number" name="age" min="1" max="100" placeholder="Enter your age" > 
+        <br>
+<br>
+<br>
+
+        <input type="checkbox" name="subscribe" value="newsletter" >I AGREE TO THE TERMS AND CONDITIONS.
+        <br>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    <script src="alert.js"></script>
+</body>
+</html>
